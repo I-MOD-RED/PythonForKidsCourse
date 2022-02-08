@@ -24,7 +24,7 @@ for row in range(0,4):
         print("%2x" % table[row][col], end='')
         if col < 3:
             print(',', end='')
-    print('|')
+    print('|', end='\n')
 print("-------------")
 
 a = 50
